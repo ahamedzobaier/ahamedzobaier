@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 200">
+  <defs>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="30" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1a1a2e" />
+      <stop offset="100%" stop-color="#16213e" />
+    </linearGradient>
+    <linearGradient id="glassFill" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="rgba(255, 255, 255, 0.1)" />
+      <stop offset="100%" stop-color="rgba(255, 255, 255, 0.02)" />
+    </linearGradient>
+    <linearGradient id="glassStroke" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="rgba(255, 255, 255, 0.3)" />
+      <stop offset="100%" stop-color="rgba(255, 255, 255, 0.0)" />
+    </linearGradient>
+  </defs>
+
+  <style>
+    .title { font-family: 'Segoe UI', -apple-system, Roboto, Helvetica, sans-serif; font-size: 34px; font-weight: 800; fill: #ffffff; letter-spacing: -0.5px; }
+    .subtitle { font-family: 'Segoe UI', -apple-system, Roboto, Helvetica, sans-serif; font-size: 18px; font-weight: 400; fill: #a0aabf; }
+    .highlight { fill: #00f0ff; }
+    
+    @media (prefers-color-scheme: light) {
+      .title { fill: #1f2937; }
+      .subtitle { fill: #4b5563; }
+      .highlight { fill: #2563eb; }
+      .bg-rect { fill: transparent; }
+    }
+    @media (prefers-color-scheme: dark) {
+      .bg-rect { fill: transparent; }
+    }
+  </style>
+
+  <!-- Background (Transparent by default to mix with GitHub theme) -->
+  <rect class="bg-rect" width="100%" height="100%" />
+
+  <!-- Glowing Orbs behind the glass -->
+  <circle cx="100" cy="50" r="80" fill="#ff007f" filter="url(#glow)" opacity="0.3" />
+  <circle cx="700" cy="150" r="100" fill="#00f0ff" filter="url(#glow)" opacity="0.3" />
+  <circle cx="400" cy="-50" r="120" fill="#7a00ff" filter="url(#glow)" opacity="0.2" />
+
+  <!-- Glass Panel -->
+  <rect x="20" y="20" width="760" height="160" rx="16" fill="url(#glassFill)" stroke="url(#glassStroke)" stroke-width="1.5" />
+  
+  <!-- Text Content -->
+  <text x="50" y="80" class="title">Hi there, I'm Ahamed Zobaier 👋</text>
+  <text x="50" y="125" class="subtitle">🚀 <tspan class="highlight">Java Spring Boot Developer</tspan> | Microservices Enthusiast | Backend Engineer</text>
+  
+  <!-- Small decorative dots -->
+  <circle cx="730" cy="40" r="3" fill="rgba(255,255,255,0.5)" />
+  <circle cx="745" cy="40" r="3" fill="rgba(255,255,255,0.3)" />
+  <circle cx="760" cy="40" r="3" fill="rgba(255,255,255,0.1)" />
+</svg>

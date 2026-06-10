@@ -1,8 +1,31 @@
-# <div align="center">
-# 
-# ![Profile Banner](https://capsule-render.vercel.app/api?type=waving&color=0:FF6B6B,100:FFE66D&height=300&section=header&text=Zobaier%20Hasan&fontSize=90&fontColor=fff&animation=fadeIn&fontAlignY=38&desc=Full-Stack%20Developer%20%7C%20Problem%20Solver%20%7C%20Tech%20Enthusiast&descAlignY=51&descAlign=62)
-# 
-# </div>
+<div align="center">
+  <img src="assets/banner-glass.svg" alt="Ahamed's Header" width="100%" />
+</div>
+
+## 🚀 About Me
+I am a passionate **Java Spring Boot Developer** dedicated to building scalable, high-performance backend systems [4, 12]. With a strong foundation in enterprise-level application development, I focus on creating clean, maintainable code and robust microservices architectures [5, 13].
+
+- 🔭 I’m currently working on **[Add your current project from your CV here]**
+- 🌱 I’m currently learning **[e.g., Cloud Native Java / Kubernetes / System Design]**
+- 💬 Ask me about **Java, Spring Framework, RESTful APIs, and Database Optimization** [14, 15]
+- 📫 How to reach me: **[Add your professional email]** | **[LinkedIn Profile Link]** [6, 16, 17]
+- ⚡ Fun fact: **[Add a fun fact or hobby to show your personality]** [6, 9, 18]
+
+## 🛠 Tech Stack
+
+<div align="center">
+  <img src="assets/skills-glass.svg" alt="Core Skills and Frameworks" width="100%" />
+</div>
+
+## 📊 GitHub Stats
+<!-- These dynamic cards provide instant credibility through quantified data [21-23] -->
+![Ahamed's GitHub Stats](https://github-readme-stats.vercel.app/api?username=ahamedzobaier&show_icons=true&theme=radical)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=ahamedzobaier&layout=compact&theme=radical)
+
+## 🏆 Featured Projects
+<!-- Pin these repos manually in your profile settings. Use READMEs for each to explain "The What" and "The Why" [15, 24] -->
+- **[Project Name 1]**: A full-stack application built with Spring Boot and React. [Describe its impact, e.g., improved processing time by 20%] [3, 25].
+- **[Project Name 2]**: A microservices-based API implementing Spring Cloud and Netflix Eureka for service discovery [5].
 
 ---
 
