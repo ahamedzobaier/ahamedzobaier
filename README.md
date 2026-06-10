@@ -1,5 +1,6 @@
 <p align="left"> 
- 
+ <img src="https://komarev.com/ghpvc/?username=ahamedzobaier&label=Profile%20views&color=0e75b6&style=flat" alt="ahamedzobaier" /> 
+</p>
 
 <img width="2000" height="600" alt="Profile Banner" src="https://github.com/user-attachments/assets/9a7d81e7-7a2c-4966-85c9-d16994a5450c" />
 
