@@ -2,7 +2,7 @@
  <img src="https://komarev.com/ghpvc/?username=ahamedzobaier&label=Profile%20views&color=0e75b6&style=flat" alt="ahamedzobaier" /> 
 </p>
 
-<img width="2000" height="600" alt="Profile Banner" src="./assets/zobaier_github_banner.png" />
+<img width="2000" height="600" alt="Profile Banner" src="./assets/zobaier_custom_banner.png" />
 
 <h1 align="center">Hi 👋, I'm ZOBAIER HASAN</h1>
 
